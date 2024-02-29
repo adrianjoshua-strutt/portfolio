@@ -1,7 +1,9 @@
 ### Site Settings ###
 title               : Adrian Joshua Strutt
 description         : >-
-                      Computer Science and AI Enthusiast located near Frankfurt
+                      Computer Science and AI Enthusiast
+                      M.Sc. Computer Science @ University Würzburg
+                      Located near Frankfurt
 baseurl             : "/"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
