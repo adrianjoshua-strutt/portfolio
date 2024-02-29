@@ -56,9 +56,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-  projects_private:
-    output: true
-    permalink: /projects_private/:name
 
 
 ### Disqus ###
