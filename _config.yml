@@ -58,12 +58,12 @@ collections:
     permalink: /projects/:name
   projects_private:
     output: true
-    permalink: /projects/:name
+    permalink: /projects_private/:name
 
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+  shortname: adrian-joshua-strutt-portfolio                  # Your website Shortname on disqus
 
 
 ### Analytics ###
