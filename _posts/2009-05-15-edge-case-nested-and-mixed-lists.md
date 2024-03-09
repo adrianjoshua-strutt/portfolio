@@ -2,7 +2,7 @@
 layout: post
 title: "Edge Case: Nested and Mixed Lists"
 categories:
-  - Private
+  - private
 tags:
   - content
   - css
