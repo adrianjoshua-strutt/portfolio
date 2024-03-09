@@ -8,7 +8,6 @@ layout: page
 
 <ul class="posts-list">
   <div class="container">
-    <h2 class="heading-text">{{page.title}}</h2>
     <ul class="image-gallery">
       {% assign category = page.category | default: page.title %}
       {% for post in site.categories[category] %}
@@ -24,17 +23,7 @@ layout: page
 </ul>
 
 
-<style>
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
+<style scoped>
 
   .container {
     padding: 40px 5%;
