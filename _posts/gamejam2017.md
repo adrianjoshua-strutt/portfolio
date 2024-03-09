@@ -3,6 +3,8 @@ layout: post
 title: "Global Game Jam 2017 - ZoundZombies"
 categories:
   - Private Projects
+tags:
+  - tag
 last_modified_at: 2017-03-09T14:25:52-05:00
 ---
 
@@ -15,3 +17,23 @@ I participated via the SRH University Heidelberg's Jam Site. Since I was complet
 <div class="embed-responsive embed-responsive-16by9">
   <iframe width="640" height="360" src="https://www.youtube.com/watch?v=FpcR29_RVO0&source_ve_path=MjM4NTE&feature=emb_title" frameborder="0" allowfullscreen></iframe>
 </div>
+
+
+## My contributions
+-   Brainstorming the concept
+-   Tailoring the gameplay to fit in our 48 hours timelimit
+-   Designing an object-oriented design for our spawning mechanism, health system as well as our pick-ups
+-   Implementing the game via Unity's C#
+
+## Details
+-   Developed using Unity3D 5.5
+-   Implemented using C#
+-   Theme: Waves
+-   Time restriction: 48 hours
+
+## Links & Download
+
+-   [Global Game Jam](https://globalgamejam.org/)
+-   [Official project page](https://globalgamejam.org/2017/games/zoundzombies)
+-   [Download Build (GGJ-Servers)](http://ggj.s3.amazonaws.com/games/2017/01/22/1550/build_zoundzombies.zip)
+-   [Download Source (GGJ-Servers)](https://ggj.s3.amazonaws.com/games/2017/01/22/1452/zoundzombies_source_build.zip)
