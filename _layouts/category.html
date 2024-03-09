@@ -12,7 +12,7 @@ layout: page
     {% for post in site.categories[category] %}
       <li>
         <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-        <div class="overlay"><span>{{ post.title }}</span></div>
+        <div class="image-overlay"><span>{{ post.title }}</span></div>
         <!-- <a href="{{ post.url | relative_url }}"> </a> -->
       </li>
     {% endfor %}
@@ -58,7 +58,7 @@ layout: page
     border-radius: 5px;
   }
 
-  .overlay {
+  .image-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -76,7 +76,7 @@ layout: page
   }
 
   /* hover */
-  .image-gallery li:hover .overlay {
+  .image-gallery li:hover .image-overlay {
     transform: scale(1);
   }
 
