@@ -2,10 +2,10 @@
 layout: post
 title: "Global Game Jam 2017 - ZoundZombies"
 categories:
-  - Private Projects
+  - private
 tags:
-  - tag
-last_modified_at: 2017-03-09T14:25:52-05:00
+  - private
+  - game jam
 ---
 
 This game was created during the Global Game Jam 2017 in just 48 Hours. The theme has been "waves". 

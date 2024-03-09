@@ -1,6 +1,7 @@
 ---
 layout: category
 title: University Projects
+category: university
 ---
 
-Another sample category page.
+Here, you can find an excerpt of my most relevant university related projects
