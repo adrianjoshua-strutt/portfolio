@@ -5,7 +5,8 @@ highlighter:      rouge
 # Setup
 title:            Portfolio
 tagline:          'Adrian Joshua Strutt'
-description:      'Adrian Joshua Strutt <br/> M.Sc. Computer Science & <br/> AI Enthusiast
+description:      'Adrian Joshua Strutt <br/> M.Sc. Computer Science & <br/> AI Enthusiast'
+url: adrianstrutt.de
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
