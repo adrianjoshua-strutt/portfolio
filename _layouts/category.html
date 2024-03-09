@@ -6,26 +6,19 @@ layout: page
   {{ content }}
 {% endunless %}
 
-<div class="container">
-  <ul class="image-gallery">
-    {% assign category = page.category | default: page.title %}
-    {% for post in site.categories[category] %}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
-          <div class="overlay"><span>{{ post.title }}</span></div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
+<ul class="image-gallery">
+  {% assign category = page.category | default: page.title %}
+  {% for post in site.categories[category] %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+        <div class="overlay"><span>{{ post.title }}</span></div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
 
 <style scoped>
-
-  .container {
-    padding: 40px 5%;
-  }
 
   ul {
     list-style: none;
