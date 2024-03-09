@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Adrian Strutt
 tagline:          'Portfolio'
-description:      'M.Sc. Computer Science & <br/> AI Enthusiast'
+description:      ''
 url: adrianstrutt.de
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
