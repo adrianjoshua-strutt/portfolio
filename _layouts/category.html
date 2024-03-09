@@ -12,7 +12,7 @@ layout: page
     {% for post in site.categories[category] %}
       <li>
         <a href="{{ post.url | relative_url }}"> 
-          <img class="img-img" src="{{ page.thumbnail }}" alt="" />
+          <img class="img-img" src="{{ post.thumbnail }}" alt="" />
           <div class="image-overlay"><span>{{ post.title }}</span></div>
         </a>
       </li>
