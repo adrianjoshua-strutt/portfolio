@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Portfolio
-tagline:          'Adrian Joshua Strutt'
-description:      'Adrian Joshua Strutt <br/> M.Sc. Computer Science & <br/> AI Enthusiast'
+title:            Adrian Strutt
+tagline:          'Portfolio'
+description:      'M.Sc. Computer Science & <br/> AI Enthusiast'
 url: adrianstrutt.de
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
