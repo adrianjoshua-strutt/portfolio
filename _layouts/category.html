@@ -12,7 +12,7 @@ layout: page
     {% for post in site.categories[category] %}
       <li>
         <a href="{{ post.url | relative_url }}"> 
-          <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+          <img class="img-img" src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
           <div class="image-overlay"><span>{{ post.title }}</span></div>
         </a>
       </li>
@@ -29,6 +29,10 @@ layout: page
 
   ul {
     list-style: none;
+  }
+
+  .img-img {
+    margin: default;
   }
 
   /* Responsive image gallery rules begin*/
