@@ -4,10 +4,8 @@ title: About
 sidebar_link: true
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
+Hey there ! I am currently moving from my old static HTML page.
+I am sorting my old projects and will be uploading them to this page soon.
+In the meantime, take a look at my GitHub page: [My GitHub Page](https://github.com/adrianjoshua-strutt)
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+(This site is hosted using GitHub Actions and Jekyll)
