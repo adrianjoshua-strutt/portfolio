@@ -19,7 +19,7 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 
 ## What I work with
 
-<div>
+<div style="width: 50%; margin-top: 15px; margin-left: auto; margin-right: auto;">
     <table border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td>
