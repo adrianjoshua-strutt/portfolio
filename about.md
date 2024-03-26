@@ -18,7 +18,7 @@ Through several university projects, I have gained deep insights into <b>Python<
 Most of my private and university projects will be uploaded to this page.
 Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strutt).
 
-## What I mostly work with
+## I mostly work with
 
 <div class="skills-div">
     <div class="skills-container">
@@ -46,7 +46,7 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     </div>
 </div>
 
-## What I regularly work with
+## I regularly work with
 
 <div class="skills-div">
     <div class="skills-container">
@@ -65,7 +65,7 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     </div>
 </div>
 
-## What I used to work with
+## I used to work with
 
 <div class="skills-div">
     <div class="skills-container">
