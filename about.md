@@ -19,7 +19,7 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 
 ## What I work with
 
-<div style="width: 50%; margin-top: 15px; margin-left: auto; margin-right: auto;">
+<div class="table-skills">
     <table border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td>
@@ -45,3 +45,21 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
         </tr>
     </table>
 </div>
+
+<style>
+
+    @media screen and (max-width: 767px){   
+        #table-skills{      
+            width: 100%;
+            margin-top: 15px; margin-left: auto; margin-right: auto; 
+        } 
+    }
+
+    @media screen and (min-width: 768px) {      
+        #table-skills{      
+            width: 50%; 
+            margin-top: 15px; margin-left: auto; margin-right: auto;
+        } 
+    } 
+
+</style>
