@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 ---
 
-<img align="right" src="assets/images/me.jpg" width="50%" style="float: right;margin-right: 20px;margin-top: 25px;">
+<img align="right" src="assets/images/me.jpg" width="50%" style="float: right;margin-right: 20px;margin-top: 35px;">
 
 Hey there ! I am Adrian Joshua Strutt (25).
 Currently, I am completing my M.Sc. Computer Science specialized in AI, finishing in November.
