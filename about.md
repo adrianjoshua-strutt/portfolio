@@ -40,6 +40,9 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
         <div class="skills-item">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
         </div>   
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+        </div>
     </div>
 </div>
 
@@ -47,16 +50,17 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 
 <div class="skills-div">
     <div class="skills-container">
+        <div class="skills-item"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+        </div>
+        <div class="skills-item"> 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+        </div>
         <div class="skills-item">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg" />
+        </div>
         <div class="skills-item">
              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" />
-        </div>
-        <div class="skills-item">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
-        </div>
-        <div class="skills-item">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /> 
         </div>
     </div>
 </div>
