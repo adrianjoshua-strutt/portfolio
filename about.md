@@ -49,14 +49,14 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 <style>
 
     @media screen and (max-width: 767px){   
-        #table-skills{      
+        .table-skills{      
             width: 100%;
             margin-top: 15px; margin-left: auto; margin-right: auto; 
         } 
     }
 
     @media screen and (min-width: 768px) {      
-        #table-skills{      
+        .table-skills{      
             width: 50%; 
             margin-top: 15px; margin-left: auto; margin-right: auto;
         } 
