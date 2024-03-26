@@ -7,6 +7,7 @@ sidebar_link: true
 <img align="right" src="assets/images/me.jpg" width="50%" style="float: right;margin-right: 20px;margin-top: 35px;">
 
 Hey there! I am Adrian Joshua Strutt (25).
+
 Currently, I am completing my <b>M.Sc. Computer Science</b> specialized in AI, finishing in November.
 
 I started coding roughly 15 years ago. Starting with <b>(Visual) Basic</b>, I quickly switched to <b>C#</b>.
@@ -17,7 +18,7 @@ Through several university projects, I have gained deep insights into <b>Python<
 Most of my private and university projects will be uploaded to this page.
 Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strutt).
 
-## What I work with
+## What I mostly work with
 
 <div class="skills-div">
     <div class="skills-container">
@@ -33,8 +34,56 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
         <div class="skills-item">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /> 
         </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
+        </div>   
     </div>
 </div>
+
+## What I regularly work with
+
+<div class="skills-div">
+    <div class="skills-container">
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg" />
+        <div class="skills-item">
+             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /> 
+        </div>
+    </div>
+</div>
+
+## What I used to work with
+
+<div class="skills-div">
+    <div class="skills-container">
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-plain-wordmark.svg" />
+        </div>
+    </div>
+</div>
+
+
+
+            
+          
 
 <style>
 
