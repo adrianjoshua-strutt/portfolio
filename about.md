@@ -108,10 +108,11 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     .skills-container {
         display: flex;
         flex-wrap: wrap; /* Wrap flex items onto multiple lines */
+        justify-content: center; /* Center items horizontally */
     }
 
     .skills-item {
-        flex: 1 0 22%; /* Set a fixed width for each item (adjust as needed) */
+        flex: 1 0 calc(25% - 10px); /* Adjust item width for 4 columns with margins */
         max-width: calc(25% - 10px); /* Limit maximum width to 25% of container width minus margin */
         box-sizing: border-box; /* Include padding and border in the item's total width */
         padding: 10px; /* Optional: add padding for space */
@@ -128,6 +129,5 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     .skills-item:nth-last-child(-n + 4) {
         margin-bottom: 0;
     }
-
 
 </style>
