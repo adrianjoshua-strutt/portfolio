@@ -58,15 +58,14 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     }
 
     .skills-item {
-    flex: 1;
-    border: 1px solid #000; /* Optional: add borders for clarity */
+    flex: 1 0 calc(25% - 10px); /* Adjust item width for 4 columns with margins */
     padding: 10px; /* Optional: add padding for space */
     margin-right: 10px; /* Optional: adjust margin between columns */
     margin-bottom: 10px; /* Optional: adjust margin between rows */
     }
 
-    /* Remove margin from last item in a row */
-    .skills-item:nth-child(4n) {
+    /* Reset margin for every fourth item to start a new row */
+    .skills-item:nth-child(4n + 1) {
     margin-right: 0;
     }
 
