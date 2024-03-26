@@ -20,7 +20,7 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 
 ## What I work with
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"/>
