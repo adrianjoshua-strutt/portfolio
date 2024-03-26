@@ -34,7 +34,7 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: 0.2rem; //CHANGE. Was $section-spacing
+  padding: $section-spacing;
 
   .site-title {
     font-family: 'Abril Fatface', serif;
