@@ -6,7 +6,7 @@ sidebar_link: true
 
 <img align="right" src="assets/images/me.jpg" width="50%" style="float: right;margin-right: 20px;margin-top: 35px;">
 
-Hey there! I am Adrian Joshua Strutt (25).
+Hey there! I am Adrian (25)
 
 Currently, I am completing my <b>M.Sc. Computer Science</b> specialized in AI, finishing in November.
 
