@@ -4,6 +4,10 @@ title: About
 sidebar_link: true
 ---
 
+## About Me
+
+<img align="right" src="assets/images/me.jpg">
+
 Hey there ! I am Adrian Joshua Strutt (25).
 Currently, I am completing my M.Sc. Computer Science specialized in AI, finishing in November.
 
@@ -15,5 +19,7 @@ vision, and Generative AI. At the moment, I'm working on my master's thesis focu
 
 Most of my private and university projects will be uploaded to this page.
 Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strutt).
+
+## What I work with
 
 (This site is hosted using GitHub Actions and Jekyll)
