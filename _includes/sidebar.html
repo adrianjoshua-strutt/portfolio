@@ -1,6 +1,6 @@
 <div id="sidebar" class="sidebar-padding">
   <header>
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title" style="margin-bottom: 0px">
       <a href="{{ "/" | relative_url }}">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
