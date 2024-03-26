@@ -19,47 +19,53 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 
 ## What I work with
 
-<div class="table-skills">
-    <table border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <td>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"/>
-            </td>
-            <td>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" />
-            </td>
-            <td>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" />
-            </td>
-            <td>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /> 
-            </td> 
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+<div class="skills-div">
+    <div class="skills-container">
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"/>
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" />
+        </div>
+        <div class="skills-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /> 
+        </div>
+    </div>
 </div>
 
 <style>
 
     @media screen and (max-width: 767px){   
-        .table-skills{      
+        .skills-div{      
             width: 100%;
             margin-top: 15px; margin-left: auto; margin-right: auto; 
         } 
     }
 
     @media screen and (min-width: 768px) {      
-        .table-skills{      
+        .skills-div{      
             width: 50%; 
             margin-top: 15px; margin-left: auto; margin-right: auto;
         } 
     } 
+
+    .skills-container {
+        display: flex;
+    }
+
+    .skills-item {
+        flex: 1;
+        border: 1px solid #000; /* Optional: add borders for clarity */
+        padding: 10px; /* Optional: add padding for space */
+        margin-right: 10px; /* Optional: adjust margin between columns */
+    }
+
+    /* Remove margin from last item to avoid extra space */
+    .skills-item:last-child {
+        margin-right: 0;
+    }
 
 </style>
