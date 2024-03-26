@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en-us'}}">
 
+  <style>
+
+    @media screen and (max-width: 767px){   
+        .sidebar-padding{      
+            padding: 1.5rem !important; 
+        } 
+    }
+
+    @media screen and (min-width: 768px) {      
+        .sidebar-padding{      
+            padding: 2rem !important;
+        } 
+    } 
+
+  </style>
+
   {% include head.html %}
 
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
@@ -9,21 +25,5 @@
 
     {% include custom-foot.html %}
   </body>
-
-  <style>
-
-    @media screen and (max-width: 767px){   
-        .sidebar-padding{      
-            padding: 1.5rem !important; 
-        } 
-    }
-  
-    @media screen and (min-width: 768px) {      
-        .sidebar-padding{      
-            padding: 2rem !important;
-        } 
-    } 
-  
-  </style>
 
 </html>
