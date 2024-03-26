@@ -20,4 +20,21 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
 
 ## What I work with
 
-(This site is hosted using GitHub Actions and Jekyll)
+<table>
+    <tr>
+        <td>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"/>
+        </td>
+        <td>
+            <i class="devicon-github-original-wordmark colored"></i>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
