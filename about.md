@@ -53,19 +53,26 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     } 
 
     .skills-container {
-        display: flex;
+    display: flex;
+    flex-wrap: wrap; /* Wrap flex items onto multiple lines */
     }
 
     .skills-item {
-        flex: 1;
-        border: 1px solid #000; /* Optional: add borders for clarity */
-        padding: 10px; /* Optional: add padding for space */
-        margin-right: 10px; /* Optional: adjust margin between columns */
+    flex: 1;
+    border: 1px solid #000; /* Optional: add borders for clarity */
+    padding: 10px; /* Optional: add padding for space */
+    margin-right: 10px; /* Optional: adjust margin between columns */
+    margin-bottom: 10px; /* Optional: adjust margin between rows */
     }
 
-    /* Remove margin from last item to avoid extra space */
-    .skills-item:last-child {
-        margin-right: 0;
+    /* Remove margin from last item in a row */
+    .skills-item:nth-child(4n) {
+    margin-right: 0;
+    }
+
+    /* Reset margin bottom for last row */
+    .skills-item:nth-last-child(-n + 4) {
+    margin-bottom: 0;
     }
 
 </style>
