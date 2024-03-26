@@ -53,25 +53,28 @@ Feel free to also look at [my GitHub Page](https://github.com/adrianjoshua-strut
     } 
 
     .skills-container {
-    display: flex;
-    flex-wrap: wrap; /* Wrap flex items onto multiple lines */
+        display: flex;
+        flex-wrap: wrap; /* Wrap flex items onto multiple lines */
     }
 
     .skills-item {
-    flex: 1 0 calc(25% - 10px); /* Adjust item width for 4 columns with margins */
-    padding: 10px; /* Optional: add padding for space */
-    margin-right: 10px; /* Optional: adjust margin between columns */
-    margin-bottom: 10px; /* Optional: adjust margin between rows */
+        flex: 1 0 22%; /* Set a fixed width for each item (adjust as needed) */
+        max-width: calc(25% - 10px); /* Limit maximum width to 25% of container width minus margin */
+        box-sizing: border-box; /* Include padding and border in the item's total width */
+        padding: 10px; /* Optional: add padding for space */
+        margin-right: 10px; /* Optional: adjust margin between columns */
+        margin-bottom: 10px; /* Optional: adjust margin between rows */
     }
 
     /* Reset margin for every fourth item to start a new row */
     .skills-item:nth-child(4n + 1) {
-    margin-right: 0;
+        margin-right: 0;
     }
 
     /* Reset margin bottom for last row */
     .skills-item:nth-last-child(-n + 4) {
-    margin-bottom: 0;
+        margin-bottom: 0;
     }
+
 
 </style>
