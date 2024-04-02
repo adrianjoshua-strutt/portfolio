@@ -15,107 +15,41 @@ sidebar_link: false
 
         <td>
 
-            <div class="contractDetails"><style>.contractDetails {
-                padding-left: 1.25cm;
-                font-family: sans-serif;
-                }
+# Impressum
 
-                p.BodyLeft,
-                p.Body {
-                margin-left: 0 !important;
-                }
+## Angaben gem. § 5 TMG
 
-                p.BodyLeft p,
-                p.Body p {
-                margin-left: 0 !important;
-                }
+Adrian Joshua Strutt
 
-                p.BodyLeft p span,
-                p.Body p span {
-                margin-left: 0 !important;
-                }
+Oberrodenbacherstraße 15 63517 Rodenbach
 
-                p.BodyLeft p span span,
-                p.Body p span span {
-                margin-left: 0 !important;
-                }
+**Vertreten durch:**
 
-                .DieterLista,
-                .DieterListi,
-                .BulletList1 {
-                padding-left: 1.25cm;
-                }
+Adrian Joshua Strutt
 
-                .DieterLista .number-prefix-p,
-                .DieterListi .number-prefix-p,
-                .BulletList1 .number-prefix-p {
-                margin-left: -1.25cm;
-                display: inline-block;
-                width: 1.25cm;
-                }
+## Kontakt
 
-                .DieterListaIndent,
-                .DieterListiIndent,
-                .BulletList2 .number-prefix-p {
-                margin-left: 1.25cm;
-                display: inline-block;
-                width: 1.25cm;
-                }
+E-Mail: struttadrianjoshua@gmail.com
 
-                .DieterHeading2 .number-prefix-p,
-                .DieterHeading3 .number-prefix-p,
-                .DieterHeading4 .number-prefix-p {
-                display: inline-block;
-                width: 1.25cm;
-                margin-left: -1.25cm;
-                }
+## Haftungsausschluss
 
-                .DieterHeading2,
-                .HeadingLeft {
-                font-weight: 600;
-                }
+Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetzen, insbesondere nach § 7 Abs. 1 des Telemediengesetzes, verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.
 
-                .DieterHeading2 span:not(.number-prefix-p) {
-                margin-left: 0 !important;
-                }
+Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland.
 
-                .BulletListNoIndent {
-                margin-left: 0 !important;
-                }
+## Urheberrechtshinweis
 
-                .BulletListNoIndent span {
-                text-indent: 0;
-                }
+Die auf unserer Internetseite vorhandenen Texte, Bilder, Fotos, Videos oder Grafiken unterliegen in der Regel dem Schutz des Urheberrechts. Jede unberechtigte Verwendung (insbesondere die Vervielfältigung, Bearbeitung oder Verbreitung) dieser urheberrechtsgeschützten Inhalte ist daher untersagt. Wenn Sie beabsichtigen, diese Inhalte oder Teile davon zu verwenden, kontaktieren Sie uns bitte im Voraus unter den oben stehenden Angaben. Soweit wir nicht selbst Inhaber der benötigten urheberrechtlichen Nutzungsrechte sein sollten, bemühen wir uns, einen Kontakt zum Berechtigten zu vermitteln.
 
-                .BulletListNoIndent .number-prefix-p {
-                display: inline-block;
-                width: 1.25cm;
-                margin-left: -1.25cm;
-                }
+## Social-Media-Profile
 
-                .BulletListNoIndent span:not(.number-prefix-p) {
-                text-indent: 1.25cm !important;
-                }
+Dieses Impressum gilt auch für folgende Social-Media-Profile:
 
-                .HeadingLeft {
-                margin-left: 0 !important;
-                font-size: 1.25rem;
-                }
+LinkedIn:https://www.linkedin.com/in/adrian-joshua-strutt-784494178/
 
-                .HeadingLeft span {
-                margin-left: 0 !important;
-                }
+Sonstige Profile:https://github.com/adrianjoshua-strutt
 
-                .DieterInvisible {
-                display: none;
-                }
-
-                .multiline {
-                white-space: pre-wrap;
-                }
-                </style><h1 class="DieterHeading1"><span>Impressum</span></h1><h2 class="HeadingLeft"><span>Angaben gem. § 5 TMG</span></h2><p class="Body"><span><span>Adrian Joshua Strutt</span></span></p><p class="Body"><span class="multiline"><span>Oberrodenbacherstraße 15
-                63517 Rodenbach</span></span></p><p class="Body"><span><strong>Vertreten durch:</strong></span></p><p class="Body"><span><span>Adrian Joshua Strutt</span></span></p><h2 class="HeadingLeft"><span>Kontakt</span></h2><p class="Body"><span>E-Mail: </span><span><span>struttadrianjoshua@gmail.com</span></span></p><h2 class="HeadingLeft"><span>Haftungsausschluss</span></h2><p class="Body"><span>Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetzen, insbesondere nach § 7 Abs. 1 des Telemediengesetzes, verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.</span></p><p class="Body"><span>Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland.</span></p><h2 class="HeadingLeft"><span>Urheberrechtshinweis</span></h2><p class="Body"><span>Die auf unserer Internetseite vorhandenen Texte, Bilder, Fotos, Videos oder Grafiken unterliegen in der Regel dem Schutz des Urheberrechts. Jede unberechtigte Verwendung (insbesondere die Vervielfältigung, Bearbeitung oder Verbreitung) dieser urheberrechtsgeschützten Inhalte ist daher untersagt. Wenn Sie beabsichtigen, diese Inhalte oder Teile davon zu verwenden, kontaktieren Sie uns bitte im Voraus unter den oben stehenden Angaben. Soweit wir nicht selbst Inhaber der benötigten urheberrechtlichen Nutzungsrechte sein sollten, bemühen wir uns, einen Kontakt zum Berechtigten zu vermitteln.</span></p><h2 class="HeadingLeft"><span>Social-Media-Profile</span></h2><p class="Body"><span>Dieses Impressum gilt auch für folgende Social-Media-Profile:</span></p><p class="Body"><span>LinkedIn:</span><span><span>https://www.linkedin.com/in/adrian-joshua-strutt-784494178/</span></span></p><p class="Body"><span>Sonstige Profile:</span><span class="multiline"><span>https://github.com/adrianjoshua-strutt</span></span></p><p class="DieterSmall"><span>Erstellt mit freundlicher Unterstützung von </span><a href="https://www.dieter-datenschutz.de/"><span>Dieter macht den Datenschutz</span></a></p>
-            </div>
+Erstellt mit freundlicher Unterstützung von [Dieter macht den Datenschutz](https://www.dieter-datenschutz.de/)
 
         </td>
 
