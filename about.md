@@ -10,8 +10,7 @@ Hey there! I am Adrian (25)
 
 Currently, I am completing my <b>M.Sc. Computer Science</b> specialized in AI, finishing in November.
 
-I started coding roughly 15 years ago. Starting with <b>(Visual) Basic</b>, I quickly switched to <b>C#</b>.
-Using WPF I coded several smaller projects, such as games in the <b>Unity Engine</b> and networking tools.
+I started coding roughly 15 years ago. Starting with <b>(Visual) Basic</b>, I quickly switched to <b>C#</b>. I coded several smaller projects, such as games in the <b>Unity Engine</b> and networking tools.
 I finished my Abitur in 2017, with my major area of study being computer science and english.
 Through several university projects, I have gained deep insights into <b>Python</b>, <b>PyTorch</b>, <b>OpenCV</b>, and <b>Generative AI</b>. At the moment, I'm working on my master's thesis focused on <b>self-supervised learning</b>.
 
