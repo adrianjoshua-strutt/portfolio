@@ -4,26 +4,6 @@ title: Impressum / Legal Notice
 sidebar_link: false
 ---
 
-<!-- Dieter Document API -->
-<link rel="stylesheet" href="https://app.dieter-datenschutz.de/snippet/dieter-documents.css">
-<script src="https://app.dieter-datenschutz.de/snippet/dieter-documents.js"
-    data-document-id="cluiejf0e002dqt0uo77xpeny"
-    data-target-selector="#dieter-document-de"
-    data-gutter-width="1.5cm"
-    data-locale="de"
-    data-no-styles="false">
-</script>
-
-<link rel="stylesheet" href="https://app.dieter-datenschutz.de/snippet/dieter-documents.css">
-<script src="https://app.dieter-datenschutz.de/snippet/dieter-documents.js"
-    data-document-id="cluiejf0e002dqt0uo77xpeny"
-    data-target-selector="#dieter-document-en"
-    data-gutter-width="1.5cm"
-    data-locale="en"
-    data-no-styles="false">
-</script>
-
-
 
 <table>
     <tr>
@@ -35,13 +15,213 @@ sidebar_link: false
 
         <td>
 
-            <div id="dieter-document-de"></div>
+            <div class="contractDetails"><style>.contractDetails {
+                padding-left: 1.25cm;
+                font-family: sans-serif;
+                }
+
+                p.BodyLeft,
+                p.Body {
+                margin-left: 0 !important;
+                }
+
+                p.BodyLeft p,
+                p.Body p {
+                margin-left: 0 !important;
+                }
+
+                p.BodyLeft p span,
+                p.Body p span {
+                margin-left: 0 !important;
+                }
+
+                p.BodyLeft p span span,
+                p.Body p span span {
+                margin-left: 0 !important;
+                }
+
+                .DieterLista,
+                .DieterListi,
+                .BulletList1 {
+                padding-left: 1.25cm;
+                }
+
+                .DieterLista .number-prefix-p,
+                .DieterListi .number-prefix-p,
+                .BulletList1 .number-prefix-p {
+                margin-left: -1.25cm;
+                display: inline-block;
+                width: 1.25cm;
+                }
+
+                .DieterListaIndent,
+                .DieterListiIndent,
+                .BulletList2 .number-prefix-p {
+                margin-left: 1.25cm;
+                display: inline-block;
+                width: 1.25cm;
+                }
+
+                .DieterHeading2 .number-prefix-p,
+                .DieterHeading3 .number-prefix-p,
+                .DieterHeading4 .number-prefix-p {
+                display: inline-block;
+                width: 1.25cm;
+                margin-left: -1.25cm;
+                }
+
+                .DieterHeading2,
+                .HeadingLeft {
+                font-weight: 600;
+                }
+
+                .DieterHeading2 span:not(.number-prefix-p) {
+                margin-left: 0 !important;
+                }
+
+                .BulletListNoIndent {
+                margin-left: 0 !important;
+                }
+
+                .BulletListNoIndent span {
+                text-indent: 0;
+                }
+
+                .BulletListNoIndent .number-prefix-p {
+                display: inline-block;
+                width: 1.25cm;
+                margin-left: -1.25cm;
+                }
+
+                .BulletListNoIndent span:not(.number-prefix-p) {
+                text-indent: 1.25cm !important;
+                }
+
+                .HeadingLeft {
+                margin-left: 0 !important;
+                font-size: 1.25rem;
+                }
+
+                .HeadingLeft span {
+                margin-left: 0 !important;
+                }
+
+                .DieterInvisible {
+                display: none;
+                }
+
+                .multiline {
+                white-space: pre-wrap;
+                }
+                </style><h1 class="DieterHeading1"><span>Impressum</span></h1><h2 class="HeadingLeft"><span>Angaben gem. § 5 TMG</span></h2><p class="Body"><span><span>Adrian Joshua Strutt</span></span></p><p class="Body"><span class="multiline"><span>Oberrodenbacherstraße 15
+                63517 Rodenbach</span></span></p><p class="Body"><span><strong>Vertreten durch:</strong></span></p><p class="Body"><span><span>Adrian Joshua Strutt</span></span></p><h2 class="HeadingLeft"><span>Kontakt</span></h2><p class="Body"><span>E-Mail: </span><span><span>struttadrianjoshua@gmail.com</span></span></p><h2 class="HeadingLeft"><span>Haftungsausschluss</span></h2><p class="Body"><span>Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetzen, insbesondere nach § 7 Abs. 1 des Telemediengesetzes, verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.</span></p><p class="Body"><span>Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland.</span></p><h2 class="HeadingLeft"><span>Urheberrechtshinweis</span></h2><p class="Body"><span>Die auf unserer Internetseite vorhandenen Texte, Bilder, Fotos, Videos oder Grafiken unterliegen in der Regel dem Schutz des Urheberrechts. Jede unberechtigte Verwendung (insbesondere die Vervielfältigung, Bearbeitung oder Verbreitung) dieser urheberrechtsgeschützten Inhalte ist daher untersagt. Wenn Sie beabsichtigen, diese Inhalte oder Teile davon zu verwenden, kontaktieren Sie uns bitte im Voraus unter den oben stehenden Angaben. Soweit wir nicht selbst Inhaber der benötigten urheberrechtlichen Nutzungsrechte sein sollten, bemühen wir uns, einen Kontakt zum Berechtigten zu vermitteln.</span></p><h2 class="HeadingLeft"><span>Social-Media-Profile</span></h2><p class="Body"><span>Dieses Impressum gilt auch für folgende Social-Media-Profile:</span></p><p class="Body"><span>LinkedIn:</span><span><span>https://www.linkedin.com/in/adrian-joshua-strutt-784494178/</span></span></p><p class="Body"><span>Sonstige Profile:</span><span class="multiline"><span>https://github.com/adrianjoshua-strutt</span></span></p><p class="DieterSmall"><span>Erstellt mit freundlicher Unterstützung von </span><a href="https://www.dieter-datenschutz.de/"><span>Dieter macht den Datenschutz</span></a></p>
+            </div>
 
         </td>
 
         <td>
 
-            <div id="dieter-document-en"></div>
+            <div class="contractDetails"><style>.contractDetails {
+            padding-left: 1.25cm;
+            font-family: sans-serif;
+            }
+
+            p.BodyLeft,
+            p.Body {
+            margin-left: 0 !important;
+            }
+
+            p.BodyLeft p,
+            p.Body p {
+            margin-left: 0 !important;
+            }
+
+            p.BodyLeft p span,
+            p.Body p span {
+            margin-left: 0 !important;
+            }
+
+            p.BodyLeft p span span,
+            p.Body p span span {
+            margin-left: 0 !important;
+            }
+
+            .DieterLista,
+            .DieterListi,
+            .BulletList1 {
+            padding-left: 1.25cm;
+            }
+
+            .DieterLista .number-prefix-p,
+            .DieterListi .number-prefix-p,
+            .BulletList1 .number-prefix-p {
+            margin-left: -1.25cm;
+            display: inline-block;
+            width: 1.25cm;
+            }
+
+            .DieterListaIndent,
+            .DieterListiIndent,
+            .BulletList2 .number-prefix-p {
+            margin-left: 1.25cm;
+            display: inline-block;
+            width: 1.25cm;
+            }
+
+            .DieterHeading2 .number-prefix-p,
+            .DieterHeading3 .number-prefix-p,
+            .DieterHeading4 .number-prefix-p {
+            display: inline-block;
+            width: 1.25cm;
+            margin-left: -1.25cm;
+            }
+
+            .DieterHeading2,
+            .HeadingLeft {
+            font-weight: 600;
+            }
+
+            .DieterHeading2 span:not(.number-prefix-p) {
+            margin-left: 0 !important;
+            }
+
+            .BulletListNoIndent {
+            margin-left: 0 !important;
+            }
+
+            .BulletListNoIndent span {
+            text-indent: 0;
+            }
+
+            .BulletListNoIndent .number-prefix-p {
+            display: inline-block;
+            width: 1.25cm;
+            margin-left: -1.25cm;
+            }
+
+            .BulletListNoIndent span:not(.number-prefix-p) {
+            text-indent: 1.25cm !important;
+            }
+
+            .HeadingLeft {
+            margin-left: 0 !important;
+            font-size: 1.25rem;
+            }
+
+            .HeadingLeft span {
+            margin-left: 0 !important;
+            }
+
+            .DieterInvisible {
+            display: none;
+            }
+
+            .multiline {
+            white-space: pre-wrap;
+            }
+            </style><h1 class="DieterHeading1"><span>Imprint</span></h1><h2 class="HeadingLeft"><span>Information according to § 5 TMG</span></h2><p class="Body"><span><span>Adrian Joshua Strutt</span></span></p><p class="Body"><span class="multiline"><span>Oberrodenbacherstrasse 15
+            63517 Rodenbach</span></span></p><p class="Body"><span><strong>Represented by:</strong></span></p><p class="Body"><span><span>Adrian Joshua Strutt</span></span></p><h2 class="HeadingLeft"><span>Contact us</span></h2><p class="Body"><span>E-Mail:</span><span><span>struttadrianjoshua@gmail.com</span></span></p><h2 class="HeadingLeft"><span>Disclaimer</span></h2><p class="Body"><span>We are responsible for the content of our Internet pages according to the provisions of general law, in particular according to Section 7 (1) of the German Telemedia Act. All contents are created with due care and to the best of our knowledge. Insofar as we refer to the Internet pages of third parties by means of hyperlinks on our Internet pages, we cannot assume any guarantee for the continuous topicality, correctness and completeness of the linked contents, as these contents are outside our area of responsibility and we have no influence on the future design. If, in your opinion, any content violates applicable law or is inappropriate, please let us know.</span></p><p class="Body"><span>The legal information on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Germany.</span></p><h2 class="HeadingLeft"><span>Copyright notice</span></h2><p class="Body"><span>The texts, images, photos, videos or graphics available on our website are generally subject to copyright protection. Any unauthorized use (especially copying, editing or distribution) of this copyright-protected content is therefore prohibited. If you intend to use this content or parts thereof, please contact us in advance using the details above. If we are not the owner of the required copyrighted rights of use ourselves, we will endeavor to arrange contact with the entitled party.</span></p><h2 class="HeadingLeft"><span>Social media profiles</span></h2><p class="Body"><span>This legal notice also applies to the following social media profiles:</span></p><p class="Body"><span>LinkedIn:</span><span><span>https://www.linkedin.com/in/adrian-joshua-strutt-784494178/</span></span></p><p class="Body"><span>Other profiles:</span><span class="multiline"><span>https://github.com/adrianjoshua-strutt</span></span></p><p class="DieterSmall"><span>Created with the kind support of</span><a href="https://www.dieter-datenschutz.de/"><span>Dieter does data protection</span></a></p><div><span>Page break</span></div>
+            </div>
            
         </td>
 
