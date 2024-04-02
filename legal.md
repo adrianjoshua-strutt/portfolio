@@ -110,8 +110,8 @@ dem Zugriff durch Dritte ist nicht m&ouml;glich.</p>
 dieser Website ist:</p> <p>Adrian Joshua Strutt<br />
 Oberrodenbacherstra&szlig;e 15<br />
 63517 Rodenbach</p>
-<p>Telefon: &#91;Telefonnummer der verantwortlichen Stelle&#93;<br />
-E-Mail: joshy55@live.de</p>
+<p>
+E-Mail: struttadrianjoshua@gmail.com</p>
  <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen
 &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-
 Adressen o. &Auml;.) entscheidet.</p>
