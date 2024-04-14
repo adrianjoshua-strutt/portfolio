@@ -12,10 +12,9 @@ tags:
 
 - Evaluate wound detection on mobile devices combined with wound segmentation
 - SSDlite, YOLOv3 with a MobileNetV2 backbone, and YOLOv5
-- FUSeg dataset adapted to the task of wound localization
-- Evaluated using the custom FUSeg dataset
+- FUSeg dataset adapted to the task of wound localization (+ Data Sanity Check)
+- Hyperparameter studies, 5-fold cross-validation, and segmentation feasibility experiment
 - Using PyTorch, Pandas, Numpy, and OpenCV
-- Hyperparameter studies, 5-fold cross-validation, and feasibility experiment
 
 ## Abstract
 
