@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Medical Imaging Pre-Processing Pipelin"
+title: "Medical Imaging Pre-Processing Pipeline"
 thumbnail: "../assets/images/pipeline.png"
 categories:
   - university
