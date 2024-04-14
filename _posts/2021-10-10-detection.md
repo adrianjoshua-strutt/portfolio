@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wound Detection for Mobile Devices"
-thumbnail: "../assets/images/detection.jpg"
+thumbnail: "../assets/images/detection.png"
 categories:
   - university
 tags:
