@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>Legal — Adrian Joshua Strutt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/theme.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      background: rgba(14, 165, 233, 0.1);
+      border: 1px solid rgba(14, 165, 233, 0.3);
+      border-radius: 8px;
+      color: var(--color-primary);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    .back-button:hover {
+      background: rgba(14, 165, 233, 0.2);
+      border-color: var(--color-primary);
+      transform: translateX(-4px);
+    }
+    .tab-bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 12px 0 16px;
+      background: rgba(255,255,255,0.04);
+      padding: 6px;
+      border-radius: 10px;
+      border: 1px solid #1f2937;
+      width: 100%;
+    }
+    .tab-btn {
+      padding: 10px 14px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--color-text);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .tab-btn.active {
+      background: rgba(14,165,233,0.12);
+      border-color: rgba(14,165,233,0.4);
+      color: var(--color-text);
+      box-shadow: 0 4px 12px rgba(14,165,233,0.18);
+    }
+    .lang-panel { display: none; }
+    .lang-panel.active { display: block; }
+    @media (max-width: 700px) {
+      .tab-btn { flex: 1 1 140px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  
+
+  <main class="container">
+    <a href="index.html" class="back-button">← Back to Portfolio</a>
+    
+    <section class="card">
+      <div class="tab-bar" role="tablist" aria-label="Language switcher">
+        <button class="tab-btn active" data-lang="de" role="tab" aria-selected="true">Deutsch</button>
+        <button class="tab-btn" data-lang="en" role="tab" aria-selected="false">English</button>
+      </div>
+
+      <div class="lang-panel active" data-lang="de" role="tabpanel">
+            <h1 id="impressum">Impressum</h1>
+            <h2 id="angaben-gem-5-tmg">Angaben gem. § 5 TMG</h2>
+            <p>Adrian Joshua Strutt</p>
+            <p><strong>Vertreten durch:</strong></p>
+            <p>Adrian Joshua Strutt</p>
+            <h2 id="kontakt">Kontakt</h2>
+            <p>E-Mail: struttadrian22@gmail.com</p>
+            <h2 id="haftungsausschluss">Haftungsausschluss</h2>
+            <p>Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetzen, insbesondere nach § 7 Abs. 1 des Telemediengesetzes, verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.</p>
+            <p>Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland.</p>
+            <h2 id="urheberrechtshinweis">Urheberrechtshinweis</h2>
+            <p>Die auf unserer Internetseite vorhandenen Texte, Bilder, Fotos, Videos oder Grafiken unterliegen in der Regel dem Schutz des Urheberrechts. Jede unberechtigte Verwendung (insbesondere die Vervielfältigung, Bearbeitung oder Verbreitung) dieser urheberrechtsgeschützten Inhalte ist daher untersagt. Wenn Sie beabsichtigen, diese Inhalte oder Teile davon zu verwenden, kontaktieren Sie uns bitte im Voraus unter den oben stehenden Angaben. Soweit wir nicht selbst Inhaber der benötigten urheberrechtlichen Nutzungsrechte sein sollten, bemühen wir uns, einen Kontakt zum Berechtigten zu vermitteln.</p>
+            <h2 id="social-media-profile">Social-Media-Profile</h2>
+            <p>Dieses Impressum gilt auch für folgende Social-Media-Profile:</p>
+            <p>LinkedIn:<a href="https://www.linkedin.com/in/adrian-joshua-strutt-784494178/">https://www.linkedin.com/in/adrian-joshua-strutt-784494178/</a></p>
+            <p>Sonstige Profile:<a href="https://github.com/adrianjoshua-strutt">https://github.com/adrianjoshua-strutt</a></p>
+            <p>Erstellt mit freundlicher Unterstützung von <a href="https://www.dieter-datenschutz.de/">Dieter macht den Datenschutz</a></p>
+      </div>
+
+      <div class="lang-panel" data-lang="en" role="tabpanel">
+            <h1 id="imprint">Imprint</h1>
+            <h2 id="information-according-to-5-tmg">Information according to § 5 TMG</h2>
+            <p>Adrian Joshua Strutt</p>
+            <p><strong>Represented by:</strong></p>
+            <p>Adrian Joshua Strutt</p>
+            <h2 id="contact-us">Contact us</h2>
+            <p>E-Mail:struttadrian22@gmail.com</p>
+            <h2 id="disclaimer">Disclaimer</h2>
+            <p>We are responsible for the content of our Internet pages according to the provisions of general law, in particular according to Section 7 (1) of the German Telemedia Act. All contents are created with due care and to the best of our knowledge. Insofar as we refer to the Internet pages of third parties by means of hyperlinks on our Internet pages, we cannot assume any guarantee for the continuous topicality, correctness and completeness of the linked contents, as these contents are outside our area of responsibility and we have no influence on the future design. If, in your opinion, any content violates applicable law or is inappropriate, please let us know.</p>
+            <p>The legal information on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Germany.</p>
+            <h2 id="copyright-notice">Copyright notice</h2>
+            <p>The texts, images, photos, videos or graphics available on our website are generally subject to copyright protection. Any unauthorized use (especially copying, editing or distribution) of this copyright-protected content is therefore prohibited. If you intend to use this content or parts thereof, please contact us in advance using the details above. If we are not the owner of the required copyrighted rights of use ourselves, we will endeavor to arrange contact with the entitled party.</p>
+            <h2 id="social-media-profiles">Social media profiles</h2>
+            <p>This legal notice also applies to the following social media profiles:</p>
+            <p>LinkedIn:<a href="https://www.linkedin.com/in/adrian-joshua-strutt-784494178/">https://www.linkedin.com/in/adrian-joshua-strutt-784494178/</a></p>
+            <p>Other profiles:<a href="https://github.com/adrianjoshua-strutt">https://github.com/adrianjoshua-strutt</a></p>
+            <p>Created with the kind support of<a href="https://www.dieter-datenschutz.de/">Dieter does data protection</a></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h1>Datenschutz&shy;erkl&auml;rung</h1>
+      <h2>1. Datenschutz auf einen Blick</h2>
+      <h3>Allgemeine Hinweise</h3> 
+      <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
+      
+      <h3>Datenerfassung auf dieser Website</h3> 
+      <h4>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h4> 
+      <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten k&ouml;nnen Sie dem Abschnitt &bdquo;Hinweis zur Verantwortlichen Stelle&ldquo; in dieser Datenschutzerkl&auml;rung entnehmen.</p> 
+      
+      <h4>Wie erfassen wir Ihre Daten?</h4> 
+      <p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.</p> 
+      <p>Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.</p>
+      
+      <h4>Wofür nutzen wir Ihre Daten?</h4> 
+      <p>Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gew&auml;hrleisten. Andere Daten k&ouml;nnen zur Analyse Ihres Nutzerverhaltens verwendet werden.</p>
+      
+      <h4>Welche Rechte haben Sie bezüglich Ihrer Daten?</h4>
+      <p>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.</p> 
+      <p>Hierzu sowie zu weiteren Fragen zum Thema Datenschutz k&ouml;nnen Sie sich jederzeit an uns wenden.</p>
+
+      <h2>2. Hosting</h2>
+      <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
+      <h3>Externes Hosting</h3> 
+      <p>Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters / der Hoster gespeichert. Hierbei kann es sich v.&nbsp;a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die &uuml;ber eine Website generiert werden, handeln.</p> 
+      <p>Das externe Hosting erfolgt zum Zwecke der Vertragserf&uuml;llung gegen&uuml;ber unseren potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschlie&szlig;lich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und &sect; 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endger&auml;t des Nutzers (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.</p> 
+      <p>Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies zur Erf&uuml;llung seiner Leistungspflichten erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.</p> 
+      <p>Wir setzen folgende(n) Hoster ein:</p>
+      <p>GitHub, Inc.<br />Betrifft: Datenschutz<br />88 Colin P Kelly Jr St<br />San Francisco<br />CA 94107<br />United States of America</p>
+
+      <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
+      <h3>Datenschutz</h3> 
+      <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer pers&ouml;nlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerkl&auml;rung.</p>
+      
+      <p>Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.
+
+      <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+
+      <h3>Hinweis zur verantwortlichen Stelle</h3> 
+      <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p> 
+      <p>Adrian Joshua Strutt</p>
+      <p>E-Mail: struttadrian22@gmail.com</p>
+
+        <p>Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
+        über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-
+        Adressen o. Ä.) entscheidet.</p>
+        <h3>Speicherdauer</h3>
+        <p>Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer
+        genannt wurde, verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung
+        entfällt. Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine Einwilligung zur
+        Datenverarbeitung widerrufen, werden Ihre Daten gelöscht, sofern wir keine anderen rechtlich
+        zulässigen Gründe für die Speicherung Ihrer personenbezogenen Daten haben (z.&nbsp;B. steuer-
+        oder handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die Löschung nach Fortfall
+        dieser Gründe.</p>
+        <h3>Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website</h3>
+        <p>Sofern Sie
+        in die Datenverarbeitung eingewilligt haben, verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von Art.
+        6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO, sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO
+        verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung in die Übertragung personenbezogener
+        Daten in Drittstaaten erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO.
+        Sofern Sie in die Speicherung von Cookies oder in den Zugriff auf Informationen in Ihr Endgerät (z.&nbsp;B. via
+        Device-Fingerprinting) eingewilligt haben, erfolgt die Datenverarbeitung zusätzlich auf Grundlage von §
+        25 Abs. 1 TTDSG. Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur Vertragserfüllung oder zur
+        Durchführung vorvertraglicher Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage des
+        Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre Daten, sofern diese zur Erfüllung einer
+        rechtlichen Verpflichtung erforderlich sind auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO. Die Datenverarbeitung
+        kann ferner auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen. Über die
+        jeweils im Einzelfall einschlägigen Rechtsgrundlagen wird in den folgenden Absätzen dieser
+        Datenschutzerklärung informiert.</p>
+        <h3>Empfänger von personenbezogenen Daten</h3>
+        <p>Im Rahmen unserer Geschäftstätigkeit
+        arbeiten wir mit verschiedenen externen Stellen zusammen. Dabei ist teilweise auch eine Übermittlung von
+        personenbezogenen Daten an diese externen Stellen erforderlich. Wir geben personenbezogene Daten nur dann an
+        externe Stellen weiter, wenn dies im Rahmen einer Vertragserfüllung erforderlich ist, wenn wir gesetzlich
+        hierzu verpflichtet sind (z.&nbsp;B. Weitergabe von Daten an Steuerbehörden), wenn wir ein berechtigtes
+        Interesse nach Art. 6 Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine sonstige Rechtsgrundlage die
+        Datenweitergabe erlaubt. Beim Einsatz von Auftragsverarbeitern geben wir personenbezogene Daten unserer
+        Kunden nur auf Grundlage eines gültigen Vertrags über Auftragsverarbeitung weiter. Im Falle einer
+        gemeinsamen Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung geschlossen.</p>
+        <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+        <p>Viele Datenverarbeitungsvorgänge sind
+        nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung
+        jederzeit widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom
+        Widerruf unberührt.</p>
+        <h3>Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21
+        DSGVO)</h3>
+        <p>WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F
+        DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER
+        BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN
+        WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN GESTÜTZTES
+        PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE VERARBEITUNG BERUHT, ENTNEHMEN
+        SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE
+        BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN, ES SEI DENN, WIR
+        KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE VERARBEITUNG
+        NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND FREIHEITEN ÜBERWIEGEN ODER DIE
+        VERARBEITUNG DIENT DER GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON
+        RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).</p>
+        <p>WERDEN IHRE
+        PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN, SO HABEN SIE DAS
+        RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER
+        DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS PROFILING,
+        SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN,
+        WERDEN IHRE PERSONENBEZOGENEN DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER
+        DIREKTWERBUNG VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).</p>
+        <h3>Beschwerde­recht bei der zuständigen Aufsichts­behörde</h3>
+        <p>Im Falle von
+        Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer
+        Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres
+        Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht
+        unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.</p>
+        <h3>Recht auf Daten­übertrag­barkeit</h3>
+        <p>Sie haben das Recht, Daten, die wir auf Grundlage
+        Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in
+        einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte
+        Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch
+        machbar ist.</p>
+        <h3>Auskunft, Berichtigung und Löschung</h3>
+        <p>Sie haben im Rahmen der geltenden gesetzlichen
+        Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen
+        Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf
+        Berichtigung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene
+        Daten können Sie sich jederzeit an uns wenden.</p>
+        <h3>Recht auf Einschränkung der Verarbeitung</h3>
+        <p>Sie haben das Recht, die Einschränkung der
+        Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Hierzu können Sie sich jederzeit an uns wenden.
+        Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:</p>
+        <ul> <li>Wenn Sie die
+        Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit,
+        um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die
+        Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li> <li>Wenn die
+        Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt
+        der Löschung die Einschränkung der Datenverarbeitung verlangen.</li> <li>Wenn wir Ihre
+        personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder
+        Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die
+        Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li> <li>Wenn Sie einen
+        Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren
+        Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das
+        Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.</li> </ul>
+        <p>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese
+        Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung,
+        Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen
+        natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der
+        Europäischen Union oder eines Mitgliedstaats verarbeitet werden.</p>
+        <h3>SSL- bzw. TLS-Verschlüsselung</h3>
+        <p>Diese Seite nutzt aus Sicherheitsgründen und zum Schutz
+        der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als
+        Seitenbetreiber senden, eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen
+        Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und
+        an dem Schloss-Symbol in Ihrer Browserzeile.</p>
+        <p>Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist,
+        können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.</p>
+        <h2>4. Datenerfassung auf dieser Website</h2>
+        <h3>Cookies</h3>
+        <p>Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine
+        Datenpakete und richten auf Ihrem Endgerät keinen Schaden an. Sie werden entweder vorübergehend
+        für die Dauer einer Sitzung (Session-Cookies) oder dauerhaft (permanente Cookies) auf Ihrem Endgerät
+        gespeichert. Session-Cookies werden nach Ende Ihres Besuchs automatisch gelöscht. Permanente Cookies
+        bleiben auf Ihrem Endgerät gespeichert, bis Sie diese selbst löschen oder eine automatische
+        Löschung durch Ihren Webbrowser erfolgt.</p>
+        <p>Cookies können von uns (First-Party-Cookies) oder
+        von Drittunternehmen stammen (sog. Third-Party-Cookies). Third-Party-Cookies ermöglichen die Einbindung
+        bestimmter Dienstleistungen von Drittunternehmen innerhalb von Webseiten (z.&nbsp;B. Cookies zur Abwicklung
+        von Zahlungsdienstleistungen).</p>
+        <p>Cookies haben verschiedene Funktionen. Zahlreiche Cookies sind technisch
+        notwendig, da bestimmte Webseitenfunktionen ohne diese nicht funktionieren würden (z.&nbsp;B. die
+        Warenkorbfunktion oder die Anzeige von Videos). Andere Cookies können zur Auswertung des
+        Nutzerverhaltens oder zu Werbezwecken verwendet werden.</p>
+        <p>Cookies, die zur Durchführung des
+        elektronischen Kommunikationsvorgangs, zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen
+        (z.&nbsp;B. für die Warenkorbfunktion) oder zur Optimierung der Website (z.&nbsp;B. Cookies zur Messung
+        des Webpublikums) erforderlich sind (notwendige Cookies), werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
+        gespeichert, sofern keine andere Rechtsgrundlage angegeben wird. Der Websitebetreiber hat ein berechtigtes
+        Interesse an der Speicherung von notwendigen Cookies zur technisch fehlerfreien und optimierten Bereitstellung
+        seiner Dienste. Sofern eine Einwilligung zur Speicherung von Cookies und vergleichbaren
+        Wiedererkennungstechnologien abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage dieser
+        Einwilligung (Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG); die Einwilligung ist jederzeit widerrufbar.</p>
+        <p>Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und
+        Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell
+        ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren.
+        Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.</p>
+        <p>Welche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser
+        Datenschutzerklärung entnehmen.</p>
+        <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>
+        <p>Wenn Sie uns per E-Mail, Telefon oder Telefax
+        kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage)
+        zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet. Diese Daten geben wir nicht ohne
+        Ihre Einwilligung weiter.</p>
+        <p>Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b
+        DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur
+        Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht
+        die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten
+        Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt
+        wurde; die Einwilligung ist jederzeit widerrufbar.</p>
+        <p>Die von Ihnen an uns per Kontaktanfragen
+        übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur
+        Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.&nbsp;B. nach
+        abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere
+        gesetzliche Aufbewahrungsfristen – bleiben unberührt.</p>
+        <h2>5. Plugins und Tools</h2>
+        <h3>YouTube</h3>
+        <p>Diese Website bindet Videos der Website YouTube ein. Betreiber der Website ist die
+        Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4, Irland.</p>
+        <p>Wenn Sie
+        eine unserer Webseiten besuchen, auf denen YouTube eingebunden ist, wird eine Verbindung zu den Servern von
+        YouTube hergestellt. Dabei wird dem YouTube-Server mitgeteilt, welche unserer Seiten Sie besucht haben.</p>
+        <p>Des Weiteren kann YouTube verschiedene Cookies auf Ihrem Endgerät speichern oder vergleichbare
+        Technologien zur Wiedererkennung verwenden (z.&nbsp;B. Device-Fingerprinting). Auf diese Weise kann YouTube
+        Informationen über Besucher dieser Website erhalten. Diese Informationen werden u.&nbsp;a. verwendet,
+        um Videostatistiken zu erfassen, die Anwenderfreundlichkeit zu verbessern und Betrugsversuchen
+        vorzubeugen.</p>
+        <p>Wenn Sie in Ihrem YouTube-Account eingeloggt sind, ermöglichen Sie YouTube, Ihr
+        Surfverhalten direkt Ihrem persönlichen Profil zuzuordnen. Dies können Sie verhindern, indem Sie sich
+        aus Ihrem YouTube-Account ausloggen.</p>
+        <p>Die Nutzung von YouTube erfolgt im Interesse einer
+        ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs.
+        1 lit. f DSGVO dar. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
+        ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die
+        Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers
+        (z.&nbsp;B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.</p>
+        <p>Weitere Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von
+        YouTube unter: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener
+        noreferrer">https://policies.google.com/privacy?hl=de</a>.</p>
+        <p>Das Unternehmen verfügt über eine Zertifizierung nach dem „EU-US Data Privacy
+        Framework“ (DPF). Der DPF ist ein Übereinkommen zwischen der Europäischen Union und den
+        USA, der die Einhaltung europäischer Datenschutzstandards bei Datenverarbeitungen in den USA
+        gewährleisten soll. Jedes nach dem DPF zertifizierte Unternehmen verpflichtet sich, diese
+        Datenschutzstandards einzuhalten. Weitere Informationen hierzu erhalten Sie vom Anbieter unter folgendem Link:
+        <a href="https://www.dataprivacyframework.gov/s/participant-search/participant-
+        detail?contact=true&amp;id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener noreferrer">https:/
+        /www.dataprivacyframework.gov/s/participant-search/participant-
+        detail?contact=true&amp;id=a2zt000000001L5AAI&amp;status=Active</a></p>
+
+
+      <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <span>© <span id="year"></span> Adrian Joshua Strutt</span>
+      <a href="legal.html">Legal</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const panels = document.querySelectorAll('.lang-panel');
+
+    tabButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        tabButtons.forEach((b) => {
+          const isActive = b.dataset.lang === lang;
+          b.classList.toggle('active', isActive);
+          b.setAttribute('aria-selected', isActive);
+        });
+        panels.forEach((panel) => {
+          panel.classList.toggle('active', panel.dataset.lang === lang);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

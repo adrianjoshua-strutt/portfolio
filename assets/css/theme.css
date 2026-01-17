@@ -1,0 +1,43 @@
+:root {
+  /* Colors */
+  --color-bg: #0b1220;
+  --color-surface: #111827;
+  --color-text: #e5e7eb;
+  --color-muted: #9ca3af;
+  --color-primary: #0ea5e9;
+  --color-primary-contrast: #06111a;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Noto Sans', 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --text-size-base: clamp(15px, 1.6vw, 17px);
+  --text-size-lg: clamp(18px, 2.2vw, 22px);
+  --text-size-xl: clamp(26px, 3.6vw, 36px);
+  --text-size-xxl: clamp(32px, 5vw, 48px);
+
+  /* Layout */
+  --container-max: 1100px;
+  --radius: 14px;
+  --gap: clamp(20px, 4vw, 40px);
+  --gap-lg: 24px;
+  --shadow: 0 8px 24px rgba(0,0,0,0.35);
+  --ring: 0 0 0 1px #1f2937 inset;
+
+  /* Buttons */
+  --btn-bg: var(--color-surface);
+  --btn-text: var(--color-text);
+  --btn-border: #1f2937;
+}
+
+/* Light mode (optional): switch by adding .light to <html> */
+html.light {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-muted: #475569;
+  --color-primary: #2563eb;
+  --color-primary-contrast: #eff6ff;
+  --btn-bg: #f1f5f9;
+  --btn-text: #0f172a;
+  --btn-border: #d1d5db;
+}
