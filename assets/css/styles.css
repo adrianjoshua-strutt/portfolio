@@ -169,7 +169,7 @@ body {
   padding: 18px 0;
 }
 .footer-content { display: flex; justify-content: space-between; align-items: center; }
-.footer-content a { color: var(--color-muted); text-decoration: none; transition: color 0.2s ease; }
+.footer-content a { color: var(--color-muted); text-decoration: none; }
 .footer-content a:hover { color: var(--color-text); }
 .footer-content a:visited { color: var(--color-muted); }
 .footer-note { font-size: 0.85em; color: var(--color-muted); margin-left: 16px; }

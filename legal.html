@@ -58,6 +58,30 @@
     }
     .lang-panel { display: none; }
     .lang-panel.active { display: block; }
+    .section-tabs {
+      display: flex;
+      gap: 10px;
+      margin: 16px 0 24px;
+      border-bottom: 2px solid #1f2937;
+    }
+    .section-tab {
+      padding: 12px 16px;
+      border: none;
+      background: transparent;
+      color: var(--color-muted);
+      font-weight: 600;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+    }
+    .section-tab.active {
+      color: var(--color-primary);
+      border-bottom-color: var(--color-primary);
+    }
+    .section-panel { display: none; }
+    .section-panel.active { display: block; }
     @media (max-width: 700px) {
       .tab-btn { flex: 1 1 140px; text-align: center; }
     }
@@ -69,6 +93,12 @@
   <main class="container">
     <a href="./" class="back-button">← Back to Portfolio</a>
     
+    <div class="section-tabs" role="tablist" aria-label="Section switcher">
+      <button class="section-tab active" data-section="impressum" role="tab" aria-selected="true">Impressum/Imprint</button>
+      <button class="section-tab" data-section="datenschutz" role="tab" aria-selected="false">Datenschutzerklärung</button>
+    </div>
+
+    <div class="section-panel active" data-section="impressum" role="tabpanel">
     <section class="card">
       <div class="tab-bar" role="tablist" aria-label="Language switcher">
         <button class="tab-btn active" data-lang="de" role="tab" aria-selected="true">Deutsch</button>
@@ -76,13 +106,13 @@
       </div>
 
       <div class="lang-panel active" data-lang="de" role="tabpanel">
-            <h1 id="impressum">Impressum</h1>
             <h2 id="angaben-gem-5-tmg">Angaben gem. § 5 TMG</h2>
             <p>Adrian Joshua Strutt</p>
             <p><strong>Vertreten durch:</strong></p>
             <p>Adrian Joshua Strutt</p>
             <h2 id="kontakt">Kontakt</h2>
             <p>E-Mail: struttadrian22@gmail.com</p>
+            <p>Diese Webseite wird privat betrieben. Meine Anschrift stelle ich nur auf berechtigte juristische Anfragen zur Verfügung. Bitte kontaktieren Sie mich per E-Mail für entsprechende Anfragen.</p>
             <h2 id="haftungsausschluss">Haftungsausschluss</h2>
             <p>Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetzen, insbesondere nach § 7 Abs. 1 des Telemediengesetzes, verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt. Soweit wir auf unseren Internetseiten mittels Hyperlink auf Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese Inhalte außerhalb unseres Verantwortungsbereichs liegen und wir auf die zukünftige Gestaltung keinen Einfluss haben. Sollten aus Ihrer Sicht Inhalte gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie uns dies bitte mit.</p>
             <p>Die rechtlichen Hinweise auf dieser Seite sowie alle Fragen und Streitigkeiten im Zusammenhang mit der Gestaltung dieser Internetseite unterliegen dem Recht der Bundesrepublik Deutschland.</p>
@@ -96,13 +126,13 @@
       </div>
 
       <div class="lang-panel" data-lang="en" role="tabpanel">
-            <h1 id="imprint">Imprint</h1>
             <h2 id="information-according-to-5-tmg">Information according to § 5 TMG</h2>
             <p>Adrian Joshua Strutt</p>
             <p><strong>Represented by:</strong></p>
             <p>Adrian Joshua Strutt</p>
             <h2 id="contact-us">Contact us</h2>
             <p>E-Mail:struttadrian22@gmail.com</p>
+            <p>This website is operated privately. I provide my address only in response to legitimate legal inquiries. Please contact me by email for such requests.</p>
             <h2 id="disclaimer">Disclaimer</h2>
             <p>We are responsible for the content of our Internet pages according to the provisions of general law, in particular according to Section 7 (1) of the German Telemedia Act. All contents are created with due care and to the best of our knowledge. Insofar as we refer to the Internet pages of third parties by means of hyperlinks on our Internet pages, we cannot assume any guarantee for the continuous topicality, correctness and completeness of the linked contents, as these contents are outside our area of responsibility and we have no influence on the future design. If, in your opinion, any content violates applicable law or is inappropriate, please let us know.</p>
             <p>The legal information on this page as well as all questions and disputes in connection with the design of this website are subject to the laws of the Federal Republic of Germany.</p>
@@ -115,9 +145,11 @@
             <p>Created with the kind support of<a href="https://www.dieter-datenschutz.de/">Dieter does data protection</a></p>
       </div>
     </section>
+    </div>
 
+    <div class="section-panel" data-section="datenschutz" role="tabpanel">
     <section class="card">
-      <h1>Datenschutz&shy;erkl&auml;rung</h1>
+      <h1>Datenschutzerklärung</h1>
       <h2>1. Datenschutz auf einen Blick</h2>
       <h3>Allgemeine Hinweise</h3> 
       <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</p>
@@ -365,6 +397,8 @@
 
     const tabButtons = document.querySelectorAll('.tab-btn');
     const panels = document.querySelectorAll('.lang-panel');
+    const sectionTabs = document.querySelectorAll('.section-tab');
+    const sectionPanels = document.querySelectorAll('.section-panel');
 
     tabButtons.forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -376,6 +410,20 @@
         });
         panels.forEach((panel) => {
           panel.classList.toggle('active', panel.dataset.lang === lang);
+        });
+      });
+    });
+
+    sectionTabs.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const section = btn.dataset.section;
+        sectionTabs.forEach((b) => {
+          const isActive = b.dataset.section === section;
+          b.classList.toggle('active', isActive);
+          b.setAttribute('aria-selected', isActive);
+        });
+        sectionPanels.forEach((panel) => {
+          panel.classList.toggle('active', panel.dataset.section === section);
         });
       });
     });
