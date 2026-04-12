@@ -1,14 +1,14 @@
 :root {
-  --color-bg: #12110f;
-  --color-bg-soft: #171512;
-  --color-surface: #1c1a16;
-  --color-surface-2: #24211b;
-  --color-text: #ece8df;
-  --color-muted: #aab4a6;
-  --color-primary: #8abf68;
-  --color-accent: #6fae8b;
-  --color-line: #3a352b;
-  --color-glow: rgba(138, 191, 104, 0.24);
+  --color-bg: #12161c;
+  --color-bg-soft: #181f28;
+  --color-surface: #1d2630;
+  --color-surface-2: #24313d;
+  --color-text: #e6ecf3;
+  --color-muted: #9eacba;
+  --color-primary: #7a93ab;
+  --color-accent: #677b90;
+  --color-line: #344352;
+  --color-glow: rgba(122, 147, 171, 0.24);
 
   --font-sans: 'Source Sans 3', 'Segoe UI', sans-serif;
   --font-display: 'Chivo', 'Segoe UI', sans-serif;
@@ -24,7 +24,7 @@
   --gap: clamp(18px, 3.4vw, 42px);
   --shadow: 0 20px 40px rgba(5, 8, 11, 0.35);
 
-  --btn-bg: linear-gradient(165deg, rgba(138, 191, 104, 0.14), rgba(111, 174, 139, 0.08));
+  --btn-bg: linear-gradient(165deg, rgba(122, 147, 171, 0.14), rgba(103, 123, 144, 0.08));
   --btn-text: var(--color-text);
   --btn-border: var(--color-line);
 }
