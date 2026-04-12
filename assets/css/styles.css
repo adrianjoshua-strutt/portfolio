@@ -1,12 +1,11 @@
 html {
   scroll-behavior: smooth;
-  background: var(--color-bg);
-  min-height: 100vh;
 }
 
-html,
-body {
-  min-height: 100%;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -17,33 +16,28 @@ body {
   color: var(--color-text);
   position: relative;
   overflow-x: hidden;
-  box-sizing: border-box;
-  width: 100%;
+  min-height: 100vh;
   background:
-    radial-gradient(circle at 88% 10%, rgba(122, 199, 187, 0.14), transparent 38%),
-    radial-gradient(circle at 6% 4%, rgba(88, 166, 192, 0.12), transparent 34%),
+    radial-gradient(circle at 82% 12%, rgba(122, 199, 187, 0.14), transparent 40%),
+    radial-gradient(circle at 62% 78%, rgba(88, 166, 192, 0.10), transparent 38%),
     linear-gradient(170deg, var(--color-bg), var(--color-bg-soft));
 }
 
 body::before {
   content: '';
-  position: absolute;
+  position: fixed;
   inset: 0;
-  min-height: 100%;
   pointer-events: none;
-  opacity: 0.2;
+  opacity: 0.18;
   background-image:
     linear-gradient(to right, rgba(231, 238, 245, 0.04) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(231, 238, 245, 0.04) 1px, transparent 1px);
   background-size: 64px 64px;
-  mask-image: radial-gradient(circle at center, black 20%, transparent 94%);
+  mask-image: radial-gradient(ellipse 75% 100% at 68% 50%, black 25%, transparent 88%);
+  z-index: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/* ======== Shared container (used by legal.html) ===================== */
 
 .container {
   width: 100%;
@@ -55,47 +49,129 @@ body::before {
   word-wrap: break-word;
 }
 
-.hero {
-  padding: 64px 0 42px;
-  animation: fadeInUp 0.6s ease-out;
-}
+/* ======== Split-screen layout ========================================= */
 
-.hero-content {
+.layout {
   display: grid;
-  grid-template-columns: 1.45fr 0.95fr;
-  gap: 34px;
-  align-items: center;
+  grid-template-columns: 340px 1fr;
+  max-width: 1300px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 
-.hero-left,
-.hero-right {
+/* ======== Sidebar ====================================================== */
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  padding: 52px 38px;
+  background: transparent;
+  border-right: none;
   display: flex;
   flex-direction: column;
+  isolation: isolate;
 }
 
-.hero-right {
+.sidebar::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 8%;
+  bottom: 8%;
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    var(--color-line) 15%,
+    rgba(88, 166, 192, 0.55) 45%,
+    rgba(122, 199, 187, 0.45) 55%,
+    var(--color-line) 85%,
+    transparent 100%
+  );
+}
+
+.sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  animation: fadeInUp 0.55s ease-out;
+}
+
+.sidebar-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tagline {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 4px;
+}
+
+.nav-item {
+  display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
+  padding: 9px 0;
+  text-decoration: none;
+  color: var(--color-muted);
+  font-family: var(--font-mono);
+  font-size: 0.78em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 0.25s ease;
+}
+
+
+.nav-indicator {
+  width: 20px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--color-line);
+  transition: width 0.32s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s ease;
+  flex-shrink: 0;
+}
+
+
+/* ======== Main scrollable content ===================================== */
+
+.main-content {
+  padding: 52px 56px;
+  min-width: 0;
 }
 
 #name {
   margin: 0;
   font-family: var(--font-display);
-  font-size: var(--text-size-xl);
-  line-height: 0.94;
-  letter-spacing: -0.01em;
-  max-width: 13ch;
+  font-size: clamp(26px, 2.8vw, 38px);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
   text-wrap: balance;
 }
 
 .lead {
-  margin-top: 16px;
-  max-width: 64ch;
+  margin: 0;
   color: var(--color-muted);
+  font-size: 0.95em;
+  line-height: 1.58;
 }
 
 .cta {
-  margin-top: 24px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
@@ -145,7 +221,7 @@ body::before {
 .social-buttons {
   display: flex;
   gap: 14px;
-  margin-top: 12px;
+  margin-top: auto;
 }
 
 .social-btn {
@@ -231,10 +307,6 @@ body::before {
   transition: padding-left 0.24s ease;
 }
 
-.timeline-item:hover,
-.timeline-item.is-active {
-  padding-left: 38px;
-}
 
 .timeline-item:nth-child(1) {
   animation-delay: 0.08s;
@@ -265,11 +337,6 @@ body::before {
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
 
-.timeline-item:hover .dot,
-.timeline-item.is-active .dot {
-  transform: scale(1.09);
-  box-shadow: 0 0 0 6px rgba(122, 199, 187, 0.16);
-}
 
 .timeline-item .content {
   background: linear-gradient(170deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.025));
@@ -281,11 +348,6 @@ body::before {
   max-width: 100%;
 }
 
-.timeline-item:hover .content,
-.timeline-item.is-active .content {
-  border-color: rgba(122, 199, 187, 0.56);
-  box-shadow: 0 10px 22px rgba(8, 14, 20, 0.26);
-}
 
 .timeline-item .content .title {
   font-weight: 600;
@@ -355,12 +417,6 @@ body::before {
 .experience-item {
   padding-left: 12px;
   border-left: 2px solid rgba(122, 199, 187, 0.45);
-  transition: border-color 0.2s ease;
-}
-
-.research-item:hover,
-.experience-item:hover {
-  border-left-color: var(--color-accent);
 }
 
 .research-title,
@@ -459,31 +515,42 @@ body::before {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 860px) {
   body::before {
     opacity: 0.14;
     background-size: 52px 52px;
   }
 
-  .hero {
-    padding: 40px 0;
-  }
-
-  .hero-content {
+  .layout {
     grid-template-columns: 1fr;
   }
 
-  .hero-right {
-    align-items: flex-start;
+  .sidebar {
+    position: static;
+    height: auto;
+    padding: 36px 24px 28px;
+    border-right: none;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+  }
+
+  .main-content {
+    padding: 36px 24px 48px;
   }
 
   #name {
     max-width: 100%;
+    font-size: clamp(28px, 7vw, 44px);
   }
 
   .avatar {
-    width: 116px;
-    height: 116px;
+    width: 108px;
+    height: 108px;
   }
 
   .card {
