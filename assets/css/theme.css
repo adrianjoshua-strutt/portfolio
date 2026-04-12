@@ -1,43 +1,30 @@
 :root {
-  /* Colors */
-  --color-bg: #0b1220;
-  --color-surface: #111827;
-  --color-text: #e5e7eb;
-  --color-muted: #9ca3af;
-  --color-primary: #0ea5e9;
-  --color-primary-contrast: #06111a;
+  --color-bg: #0f151b;
+  --color-bg-soft: #151f29;
+  --color-surface: #1a2631;
+  --color-surface-2: #202f3c;
+  --color-text: #e7eef5;
+  --color-muted: #9caebd;
+  --color-primary: #58a6c0;
+  --color-accent: #7ac7bb;
+  --color-line: #2f4252;
+  --color-glow: rgba(88, 166, 192, 0.26);
 
-  /* Typography */
-  --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Noto Sans', 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  --text-size-base: clamp(15px, 1.6vw, 17px);
-  --text-size-lg: clamp(18px, 2.2vw, 22px);
-  --text-size-xl: clamp(26px, 3.6vw, 36px);
-  --text-size-xxl: clamp(32px, 5vw, 48px);
+  --font-sans: 'Source Sans 3', 'Segoe UI', sans-serif;
+  --font-display: 'Chivo', 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', Consolas, monospace;
 
-  /* Layout */
-  --container-max: 1100px;
-  --radius: 14px;
-  --gap: clamp(20px, 4vw, 40px);
-  --gap-lg: 24px;
-  --shadow: 0 8px 24px rgba(0,0,0,0.35);
-  --ring: 0 0 0 1px #1f2937 inset;
+  --text-size-base: clamp(16px, 1.55vw, 18px);
+  --text-size-lg: clamp(20px, 2.3vw, 26px);
+  --text-size-xl: clamp(34px, 5vw, 58px);
 
-  /* Buttons */
-  --btn-bg: var(--color-surface);
+  --container-max: 1120px;
+  --radius: 16px;
+  --radius-sm: 12px;
+  --gap: clamp(18px, 3.4vw, 42px);
+  --shadow: 0 20px 40px rgba(5, 8, 11, 0.35);
+
+  --btn-bg: linear-gradient(165deg, rgba(88, 166, 192, 0.16), rgba(122, 199, 187, 0.1));
   --btn-text: var(--color-text);
-  --btn-border: #1f2937;
-}
-
-/* Light mode (optional): switch by adding .light to <html> */
-html.light {
-  --color-bg: #f8fafc;
-  --color-surface: #ffffff;
-  --color-text: #0f172a;
-  --color-muted: #475569;
-  --color-primary: #2563eb;
-  --color-primary-contrast: #eff6ff;
-  --btn-bg: #f1f5f9;
-  --btn-text: #0f172a;
-  --btn-border: #d1d5db;
+  --btn-border: var(--color-line);
 }
